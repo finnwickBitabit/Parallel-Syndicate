@@ -1,3 +1,9 @@
+.git
+node_modules/
+.env
+
+
+
 *.class
 *.log
 
