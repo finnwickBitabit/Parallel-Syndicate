@@ -2,7 +2,7 @@ import AWS from 'aws-sdk';
 
 const dynamoDB = new AWS.DynamoDB.DocumentClient();
 
-const TABLE_NAME = 'YourDynamoDBTableName'; // Replace with your actual table name
+const TABLE_NAME = 'Parallel-Syndicate-Bored';
 
 export const fetchMessages = async () => {
     const params = {
