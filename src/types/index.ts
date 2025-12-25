@@ -1,11 +1,4 @@
-export interface Message {
-    id: string;
-    content: string;
-    createdAt: string;
-    userId: string;
-}
+import dompurify from 'dompurify';
 
-export interface User {
-    id: string;
-    username: string;
-}
+dompurify.sanitize('<p>');
+dompurify().sanitize('<p>');
